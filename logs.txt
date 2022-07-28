@@ -1,0 +1,147 @@
+* 
+* ==> Audit <==
+* |------------|--------------------------------|----------|------|---------|---------------------|---------------------|
+|  Command   |              Args              | Profile  | User | Version |     Start Time      |      End Time       |
+|------------|--------------------------------|----------|------|---------|---------------------|---------------------|
+| start      |                                | minikube | clem | v1.26.0 | 27 Jul 22 04:41 WAT |                     |
+| start      |                                | minikube | clem | v1.26.0 | 27 Jul 22 04:47 WAT | 27 Jul 22 05:23 WAT |
+| dashboad   |                                | minikube | clem | v1.26.0 | 27 Jul 22 05:25 WAT |                     |
+| dashboard  |                                | minikube | clem | v1.26.0 | 27 Jul 22 05:25 WAT |                     |
+| stop       |                                | minikube | clem | v1.26.0 | 27 Jul 22 09:42 WAT | 27 Jul 22 09:42 WAT |
+| start      | --insecure-registry            | minikube | clem | v1.26.0 | 27 Jul 22 09:43 WAT |                     |
+| start      | --insecure-registry            | minikube | clem | v1.26.0 | 27 Jul 22 09:44 WAT | 27 Jul 22 09:45 WAT |
+|            | 10.0.0.0/24                    |          |      |         |                     |                     |
+| stop       |                                | minikube | clem | v1.26.0 | 27 Jul 22 09:55 WAT | 27 Jul 22 09:55 WAT |
+| start      | --help                         | minikube | clem | v1.26.0 | 27 Jul 22 10:02 WAT | 27 Jul 22 10:02 WAT |
+| start      |                                | minikube | clem | v1.26.0 | 27 Jul 22 10:04 WAT | 27 Jul 22 10:04 WAT |
+| docker-env |                                | minikube | clem | v1.26.0 | 27 Jul 22 10:11 WAT | 27 Jul 22 10:11 WAT |
+| image      | load mlhousepredict            | minikube | clem | v1.26.0 | 27 Jul 22 10:15 WAT | 27 Jul 22 10:17 WAT |
+| image      | load                           | minikube | clem | v1.26.0 | 27 Jul 22 10:18 WAT | 27 Jul 22 10:26 WAT |
+|            | 3a2e52cb65e4/mlhousepredict    |          |      |         |                     |                     |
+| start      |                                | minikube | clem | v1.26.0 | 27 Jul 22 11:24 WAT | 27 Jul 22 11:26 WAT |
+| stop       |                                | minikube | clem | v1.26.0 | 27 Jul 22 12:19 WAT | 27 Jul 22 12:19 WAT |
+| start      |                                | minikube | clem | v1.26.0 | 28 Jul 22 12:51 WAT |                     |
+| start      |                                | minikube | clem | v1.26.0 | 28 Jul 22 13:33 WAT |                     |
+| dashboard  |                                | minikube | clem | v1.26.0 | 28 Jul 22 13:34 WAT |                     |
+| stop       |                                | minikube | clem | v1.26.0 | 28 Jul 22 13:43 WAT |                     |
+| start      | --force                        | minikube | clem | v1.26.0 | 28 Jul 22 13:44 WAT |                     |
+| start      |                                | minikube | clem | v1.26.0 | 28 Jul 22 16:19 WAT |                     |
+| start      | --driver=docker                | minikube | clem | v1.26.0 | 28 Jul 22 16:29 WAT |                     |
+| start      | --driver=none                  | minikube | clem | v1.26.0 | 28 Jul 22 16:30 WAT |                     |
+| start      | --driver=docker                | minikube | clem | v1.26.0 | 28 Jul 22 16:30 WAT |                     |
+| start      |                                | minikube | clem | v1.26.0 | 28 Jul 22 16:31 WAT | 28 Jul 22 16:33 WAT |
+| dashboard  |                                | minikube | clem | v1.26.0 | 28 Jul 22 16:39 WAT |                     |
+| docker-env |                                | minikube | clem | v1.26.0 | 28 Jul 22 16:46 WAT |                     |
+| docker-env |                                | minikube | clem | v1.26.0 | 28 Jul 22 16:47 WAT |                     |
+| stop       |                                | minikube | clem | v1.26.0 | 28 Jul 22 16:47 WAT |                     |
+| docker-env |                                | minikube | clem | v1.26.0 | 28 Jul 22 16:47 WAT |                     |
+| docker-env |                                | minikube | clem | v1.26.0 | 28 Jul 22 16:48 WAT |                     |
+| docker-env |                                | minikube | clem | v1.26.0 | 28 Jul 22 16:48 WAT |                     |
+| docker-env |                                | minikube | clem | v1.26.0 | 28 Jul 22 16:48 WAT |                     |
+| docker-env |                                | minikube | clem | v1.26.0 | 28 Jul 22 16:48 WAT |                     |
+| docker-env |                                | minikube | clem | v1.26.0 | 28 Jul 22 16:49 WAT |                     |
+| docker-env |                                | minikube | clem | v1.26.0 | 28 Jul 22 16:49 WAT |                     |
+| docker-env |                                | minikube | clem | v1.26.0 | 28 Jul 22 16:49 WAT |                     |
+| docker-env |                                | minikube | clem | v1.26.0 | 28 Jul 22 16:49 WAT |                     |
+| docker-env |                                | minikube | clem | v1.26.0 | 28 Jul 22 16:49 WAT |                     |
+| start      |                                | minikube | clem | v1.26.0 | 28 Jul 22 16:49 WAT |                     |
+| delete     |                                | minikube | clem | v1.26.0 | 28 Jul 22 16:51 WAT | 28 Jul 22 16:51 WAT |
+| delete     |                                | minikube | clem | v1.26.0 | 28 Jul 22 16:51 WAT | 28 Jul 22 16:51 WAT |
+| start      | --driver=none                  | minikube | clem | v1.26.0 | 28 Jul 22 16:52 WAT |                     |
+| start      | --driver=none                  | minikube | clem | v1.26.0 | 28 Jul 22 16:52 WAT |                     |
+| delete     |                                | minikube | clem | v1.26.0 | 28 Jul 22 16:53 WAT | 28 Jul 22 16:53 WAT |
+| start      | --driver=none                  | minikube | clem | v1.26.0 | 28 Jul 22 16:53 WAT |                     |
+|------------|--------------------------------|----------|------|---------|---------------------|---------------------|
+
+* 
+* ==> Last Start <==
+* Log file created at: 2022/07/28 16:53:21
+Running on machine: clem-Pc
+Binary: Built with gc go1.18.3 for linux/amd64
+Log line format: [IWEF]mmdd hh:mm:ss.uuuuuu threadid file:line] msg
+I0728 16:53:21.157020   58436 out.go:296] Setting OutFile to fd 1 ...
+I0728 16:53:21.157132   58436 out.go:348] isatty.IsTerminal(1) = true
+I0728 16:53:21.157137   58436 out.go:309] Setting ErrFile to fd 2...
+I0728 16:53:21.157143   58436 out.go:348] isatty.IsTerminal(2) = true
+I0728 16:53:21.157602   58436 root.go:329] Updating PATH: /home/clem/.minikube/bin
+I0728 16:53:21.157867   58436 out.go:303] Setting JSON to false
+I0728 16:53:21.178674   58436 start.go:115] hostinfo: {"hostname":"clem-Pc","uptime":2349,"bootTime":1659021252,"procs":529,"os":"linux","platform":"ubuntu","platformFamily":"debian","platformVersion":"20.04","kernelVersion":"5.11.0-37-generic","kernelArch":"x86_64","virtualizationSystem":"kvm","virtualizationRole":"host","hostId":"eb2d6cae-0efc-4b26-b992-36039d2b5d40"}
+I0728 16:53:21.178918   58436 start.go:125] virtualization: kvm host
+I0728 16:53:21.240643   58436 out.go:177] 😄  minikube v1.26.0 on Ubuntu 20.04
+I0728 16:53:21.299270   58436 notify.go:193] Checking for updates...
+I0728 16:53:21.299427   58436 driver.go:360] Setting default libvirt URI to qemu:///system
+I0728 16:53:21.357811   58436 out.go:177] ✨  Using the none driver based on user configuration
+I0728 16:53:21.399485   58436 start.go:284] selected driver: none
+I0728 16:53:21.399512   58436 start.go:805] validating driver "none" against <nil>
+I0728 16:53:21.399540   58436 start.go:816] status for none: {Installed:true Healthy:true Running:false NeedsImprovement:false Error:<nil> Reason: Fix: Doc: Version:}
+I0728 16:53:21.399595   58436 start.go:1541] auto setting extra-config to "kubelet.resolv-conf=/run/systemd/resolve/resolv.conf".
+I0728 16:53:21.416952   58436 start_flags.go:296] no existing cluster config was found, will generate one from the flags 
+I0728 16:53:21.418088   58436 start_flags.go:377] Using suggested 2200MB memory alloc based on sys=7822MB, container=0MB
+I0728 16:53:21.418388   58436 start_flags.go:835] Wait components to verify : map[apiserver:true system_pods:true]
+I0728 16:53:21.418429   58436 cni.go:95] Creating CNI manager for ""
+I0728 16:53:21.418450   58436 cni.go:149] Driver none used, CNI unnecessary in this configuration, recommending no CNI
+I0728 16:53:21.418471   58436 start_flags.go:310] config:
+{Name:minikube KeepContext:false EmbedCerts:false MinikubeISO: KicBaseImage:gcr.io/k8s-minikube/kicbase:v0.0.32@sha256:9190bd2393eae887316c97a74370b7d5dad8f0b2ef91ac2662bc36f7ef8e0b95 Memory:2200 CPUs:2 DiskSize:20000 VMDriver: Driver:none HyperkitVpnKitSock: HyperkitVSockPorts:[] DockerEnv:[] ContainerVolumeMounts:[] InsecureRegistry:[] RegistryMirror:[] HostOnlyCIDR:192.168.59.1/24 HypervVirtualSwitch: HypervUseExternalSwitch:false HypervExternalAdapter: KVMNetwork:default KVMQemuURI:qemu:///system KVMGPU:false KVMHidden:false KVMNUMACount:1 APIServerPort:0 DockerOpt:[] DisableDriverMounts:false NFSShare:[] NFSSharesRoot:/nfsshares UUID: NoVTXCheck:false DNSProxy:false HostDNSResolver:true HostOnlyNicType:virtio NatNicType:virtio SSHIPAddress: SSHUser:root SSHKey: SSHPort:22 KubernetesConfig:{KubernetesVersion:v1.24.1 ClusterName:minikube Namespace:default APIServerName:minikubeCA APIServerNames:[] APIServerIPs:[] DNSDomain:cluster.local ContainerRuntime:docker CRISocket: NetworkPlugin: FeatureGates: ServiceCIDR:10.96.0.0/12 ImageRepository: LoadBalancerStartIP: LoadBalancerEndIP: CustomIngressCert: RegistryAliases: ExtraOptions:[{Component:kubelet Key:resolv-conf Value:/run/systemd/resolve/resolv.conf}] ShouldLoadCachedImages:false EnableDefaultCNI:false CNI: NodeIP: NodePort:8443 NodeName:} Nodes:[] Addons:map[] CustomAddonImages:map[] CustomAddonRegistries:map[] VerifyComponents:map[apiserver:true system_pods:true] StartHostTimeout:6m0s ScheduledStop:<nil> ExposedPorts:[] ListenAddress: Network: Subnet: MultiNodeRequested:false ExtraDisks:0 CertExpiration:26280h0m0s Mount:false MountString:/home/clem:/minikube-host Mount9PVersion:9p2000.L MountGID:docker MountIP: MountMSize:262144 MountOptions:[] MountPort:0 MountType:9p MountUID:docker BinaryMirror: DisableOptimizations:false DisableMetrics:false CustomQemuFirmwarePath:}
+I0728 16:53:21.499925   58436 out.go:177] 👍  Starting control plane node minikube in cluster minikube
+I0728 16:53:21.542616   58436 profile.go:148] Saving config to /home/clem/.minikube/profiles/minikube/config.json ...
+I0728 16:53:21.542698   58436 lock.go:35] WriteFile acquiring /home/clem/.minikube/profiles/minikube/config.json: {Name:mk03ab1102029e71de31d048952447a45428a17d Clock:{} Delay:500ms Timeout:1m0s Cancel:<nil>}
+I0728 16:53:21.543280   58436 cache.go:208] Successfully downloaded all kic artifacts
+I0728 16:53:21.543331   58436 start.go:352] acquiring machines lock for minikube: {Name:mk818fa3d83344d174ca81a0f2514259139237a5 Clock:{} Delay:500ms Timeout:13m0s Cancel:<nil>}
+I0728 16:53:21.543448   58436 start.go:356] acquired machines lock for "minikube" in 94.444µs
+I0728 16:53:21.543485   58436 start.go:91] Provisioning new machine with config: &{Name:minikube KeepContext:false EmbedCerts:false MinikubeISO: KicBaseImage:gcr.io/k8s-minikube/kicbase:v0.0.32@sha256:9190bd2393eae887316c97a74370b7d5dad8f0b2ef91ac2662bc36f7ef8e0b95 Memory:2200 CPUs:2 DiskSize:20000 VMDriver: Driver:none HyperkitVpnKitSock: HyperkitVSockPorts:[] DockerEnv:[] ContainerVolumeMounts:[] InsecureRegistry:[] RegistryMirror:[] HostOnlyCIDR:192.168.59.1/24 HypervVirtualSwitch: HypervUseExternalSwitch:false HypervExternalAdapter: KVMNetwork:default KVMQemuURI:qemu:///system KVMGPU:false KVMHidden:false KVMNUMACount:1 APIServerPort:0 DockerOpt:[] DisableDriverMounts:false NFSShare:[] NFSSharesRoot:/nfsshares UUID: NoVTXCheck:false DNSProxy:false HostDNSResolver:true HostOnlyNicType:virtio NatNicType:virtio SSHIPAddress: SSHUser:root SSHKey: SSHPort:22 KubernetesConfig:{KubernetesVersion:v1.24.1 ClusterName:minikube Namespace:default APIServerName:minikubeCA APIServerNames:[] APIServerIPs:[] DNSDomain:cluster.local ContainerRuntime:docker CRISocket: NetworkPlugin: FeatureGates: ServiceCIDR:10.96.0.0/12 ImageRepository: LoadBalancerStartIP: LoadBalancerEndIP: CustomIngressCert: RegistryAliases: ExtraOptions:[{Component:kubelet Key:resolv-conf Value:/run/systemd/resolve/resolv.conf}] ShouldLoadCachedImages:false EnableDefaultCNI:false CNI: NodeIP: NodePort:8443 NodeName:} Nodes:[{Name:m01 IP: Port:8443 KubernetesVersion:v1.24.1 ContainerRuntime:docker ControlPlane:true Worker:true}] Addons:map[] CustomAddonImages:map[] CustomAddonRegistries:map[] VerifyComponents:map[apiserver:true system_pods:true] StartHostTimeout:6m0s ScheduledStop:<nil> ExposedPorts:[] ListenAddress: Network: Subnet: MultiNodeRequested:false ExtraDisks:0 CertExpiration:26280h0m0s Mount:false MountString:/home/clem:/minikube-host Mount9PVersion:9p2000.L MountGID:docker MountIP: MountMSize:262144 MountOptions:[] MountPort:0 MountType:9p MountUID:docker BinaryMirror: DisableOptimizations:false DisableMetrics:false CustomQemuFirmwarePath:} &{Name:m01 IP: Port:8443 KubernetesVersion:v1.24.1 ContainerRuntime:docker ControlPlane:true Worker:true}
+I0728 16:53:21.543600   58436 start.go:131] createHost starting for "m01" (driver="none")
+I0728 16:53:21.600394   58436 out.go:177] 🤹  Running on localhost (CPUs=4, Memory=7822MB, Disk=298923MB) ...
+I0728 16:53:21.642300   58436 exec_runner.go:51] Run: systemctl --version
+I0728 16:53:21.645337   58436 start.go:165] libmachine.API.Create for "minikube" (driver="none")
+I0728 16:53:21.645379   58436 client.go:168] LocalClient.Create starting
+I0728 16:53:21.645540   58436 main.go:134] libmachine: Reading certificate data from /home/clem/.minikube/certs/ca.pem
+I0728 16:53:21.645639   58436 main.go:134] libmachine: Decoding PEM data...
+I0728 16:53:21.645675   58436 main.go:134] libmachine: Parsing certificate...
+I0728 16:53:21.645747   58436 main.go:134] libmachine: Reading certificate data from /home/clem/.minikube/certs/cert.pem
+I0728 16:53:21.645777   58436 main.go:134] libmachine: Decoding PEM data...
+I0728 16:53:21.645797   58436 main.go:134] libmachine: Parsing certificate...
+I0728 16:53:21.646415   58436 client.go:171] LocalClient.Create took 1.021322ms
+I0728 16:53:21.646475   58436 start.go:173] duration metric: libmachine.API.Create for "minikube" took 1.130252ms
+I0728 16:53:21.646484   58436 start.go:306] post-start starting for "minikube" (driver="none")
+I0728 16:53:21.646500   58436 start.go:316] creating required directories: [/etc/kubernetes/addons /etc/kubernetes/manifests /var/tmp/minikube /var/lib/minikube /var/lib/minikube/certs /var/lib/minikube/images /var/lib/minikube/binaries /tmp/gvisor /usr/share/ca-certificates /etc/ssl/certs]
+I0728 16:53:21.646559   58436 exec_runner.go:51] Run: sudo mkdir -p /etc/kubernetes/addons /etc/kubernetes/manifests /var/tmp/minikube /var/lib/minikube /var/lib/minikube/certs /var/lib/minikube/images /var/lib/minikube/binaries /tmp/gvisor /usr/share/ca-certificates /etc/ssl/certs
+I0728 16:53:21.655614   58436 main.go:134] libmachine: Couldn't set key PRIVACY_POLICY_URL, no corresponding struct field found
+I0728 16:53:21.655650   58436 main.go:134] libmachine: Couldn't set key VERSION_CODENAME, no corresponding struct field found
+I0728 16:53:21.655668   58436 main.go:134] libmachine: Couldn't set key UBUNTU_CODENAME, no corresponding struct field found
+I0728 16:53:21.717935   58436 out.go:177] ℹ️  OS release is Ubuntu 20.04.4 LTS
+I0728 16:53:21.759818   58436 filesync.go:126] Scanning /home/clem/.minikube/addons for local assets ...
+I0728 16:53:21.759934   58436 filesync.go:126] Scanning /home/clem/.minikube/files for local assets ...
+I0728 16:53:21.759988   58436 start.go:309] post-start completed in 113.496484ms
+I0728 16:53:21.761408   58436 profile.go:148] Saving config to /home/clem/.minikube/profiles/minikube/config.json ...
+I0728 16:53:21.761633   58436 start.go:134] duration metric: createHost completed in 218.018412ms
+I0728 16:53:21.761644   58436 start.go:81] releasing machines lock for "minikube", held for 218.182354ms
+I0728 16:53:21.762574   58436 exec_runner.go:51] Run: curl -sS -m 2 https://k8s.gcr.io/
+I0728 16:53:21.762644   58436 exec_runner.go:51] Run: /bin/bash -c "sudo mkdir -p /etc && printf %!s(MISSING) "runtime-endpoint: unix:///var/run/cri-dockerd.sock
+image-endpoint: unix:///var/run/cri-dockerd.sock
+" | sudo tee /etc/crictl.yaml"
+I0728 16:53:21.781742   58436 exec_runner.go:51] Run: sudo systemctl unmask docker.service
+I0728 16:53:22.176964   58436 exec_runner.go:51] Run: sudo systemctl enable docker.socket
+I0728 16:53:22.589242   58436 exec_runner.go:51] Run: sudo systemctl daemon-reload
+I0728 16:53:22.873946   58436 exec_runner.go:84] Completed: curl -sS -m 2 https://k8s.gcr.io/: (1.111338088s)
+I0728 16:53:22.961403   58436 exec_runner.go:51] Run: sudo systemctl restart docker
+I0728 16:53:33.738226   58436 exec_runner.go:84] Completed: sudo systemctl restart docker: (10.776787979s)
+I0728 16:53:33.738280   58436 exec_runner.go:51] Run: sudo systemctl enable cri-docker.socket
+I0728 16:53:33.805487   58436 out.go:177] 
+W0728 16:53:33.855705   58436 out.go:239] ❌  Exiting due to RUNTIME_ENABLE: sudo systemctl enable cri-docker.socket: exit status 1
+stdout:
+
+stderr:
+Failed to enable unit: Unit file cri-docker.socket does not exist.
+
+W0728 16:53:33.855763   58436 out.go:239] 
+W0728 16:53:33.857747   58436 out.go:239] [31m╭───────────────────────────────────────────────────────────────────────────────────────────╮[0m
+[31m│[0m                                                                                           [31m│[0m
+[31m│[0m    😿  If the above advice does not help, please let us know:                             [31m│[0m
+[31m│[0m    👉  https://github.com/kubernetes/minikube/issues/new/choose                           [31m│[0m
+[31m│[0m                                                                                           [31m│[0m
+[31m│[0m    Please run `minikube logs --file=logs.txt` and attach logs.txt to the GitHub issue.    [31m│[0m
+[31m│[0m                                                                                           [31m│[0m
+[31m╰───────────────────────────────────────────────────────────────────────────────────────────╯[0m
+I0728 16:53:33.989420   58436 out.go:177] 
+
+* 
