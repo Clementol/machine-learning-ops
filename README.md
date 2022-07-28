@@ -57,7 +57,7 @@ source .devops/bin/activate
 * model_data > *: Containing trained sklearn model and dataset for Boston housing
 * output_txt_files > docker_out.txt:  prediction log statemetn from docker app
 * output_txt_files > kubernetes_out.txt: kubernetes log info
-* app.py: Flask web app to run the prediction
+* app.py: Python Flask app to run the prediction
 * Dockerfile: Docker file for containerization
 * make_prediction.sh: Shell script to run prediction
 * Makefile: Includes instructions on environment setup and lint tests
